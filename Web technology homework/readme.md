@@ -55,10 +55,13 @@ Answer the following questions about `curl`:
 ```
 11. Which curl option is used to change the request method?
 ##### we must use -X option to change the request method
+
 12. Which curl option is used to set request headers?
 ##### we must use -H to set the request header
+
 13. Which curl option is used to view the response header?
 ##### --head option
+
 14. Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
 ##### POST method
 
