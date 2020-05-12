@@ -8,13 +8,13 @@ Answer the following questions about the HTTP request and response process.
 ##### Client Server architecture
 
 2. What parts make up an `HTTP request`?
-##### The header and the body
+##### The request line, header and the body
 
 3. What is the optional part of an HTTP request?
 #####  The body is the optional part of HTTP request
 
 4. What three parts make up an HTTP response?
-##### The request, header and Body
+##### The status line, header and Body
 
 5. Which number class of status codes represent errors?
 ##### The status codes in the 400 series are the error codes
