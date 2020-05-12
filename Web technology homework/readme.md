@@ -79,6 +79,7 @@ Answer the following questions about sessions and cookies.
     Set-Cookie: cart=Bob
     ```
 ##### Set-Cookie: cart=Bob will send a cookie to the client
+
 16. Which request header sets a cookie in the client?
 
     ```HTTP
