@@ -48,7 +48,8 @@ Answer the following questions about `curl`:
 
 10. What are the advantages of using curl over the browser?
 ##### Curl is a command line tool as compare to a GUI based web - --browser. It has the following advantages:
-```-Test web server security configurations.
+```
+-Test web server security configurations.
 -Ensure web servers don't leak sensitive data through their HTTP responses.
 -Verify that servers only respond to certain request types.
 -Look for vulnerabilities on a web server.
