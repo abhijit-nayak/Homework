@@ -29,7 +29,7 @@ Answer the following questions about the HTTP request and response process.
 
 8. Which part of an `HTTP request` contains the data being sent to the server?
 ##### The body part of the HTTP request  contains the data being sent to server
-#####In the below example, Content length and home parameter contains the data and its length being transmitted to server:
+##### In the below example, Content length and home parameter contains the data and its length being transmitted to server:
 ```POST /path/script.cgi HTTP/1.0
 From: frog@jmarshall.com
 User-Agent: HTTPTool/1.0
