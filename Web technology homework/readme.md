@@ -17,13 +17,16 @@ Answer the following questions about the HTTP request and response process.
 ##### The status line, header and Body
 
 5. Which number class of status codes represent errors?
-##### The status codes in the 400 series are the error codes
+##### The status codes in the 400 series are the error codes for client and 500 for server errors
+
 6. What are the two most common request methods that a security professional will come across?
 ##### The 2 most common request methods are GET method and POST method
 ##### GET method: It is used to request information from the source
 ##### POST method is used to update the information to the source
+
 7. Which type of HTTP request method is used for sending data?
 ##### POST method is used for sending the data
+
 8. Which part of an `HTTP request` contains the data being sent to the server?
 ##### The body part of the HTTP request  contains the data being sent to server
 #####In the below example, Content length and home parameter contains the data and its length being transmitted to server:
