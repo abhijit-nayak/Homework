@@ -181,8 +181,9 @@ Your first mission is to break the authentication scheme. There are a number of 
 - **Hint #2**: Find the hidden JavaScript.
 
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
-
+Navigated to source of the challenge file that revealed the credentials
 ![Javascript](images/Challenge1_credentials.png)
+After entering the credentials, message displayed `challenge 1 completed`
 ![success](images/Challenge1_complete.png)
 
 
@@ -194,8 +195,13 @@ Next, steal all of the credit card numbers from the database.
 - **Hint #2**: Break your way into the conversation and inject your own ideas.
 
 After completing the second challenge, you will be provided with an option to continue to the next challenge.
+Using tamper data view the user value of the cookie
+![tamperdats](images/Challenge2_injection.png)
+Using Cyberchef, encode the username for performing SQL injection and enter it into Tamper data.
 ![Injection](images/Challenge2_injection.png)
+Challenge 2 successful!
 ![success](images/Challenge2_success.png)
+All credit card numbers revealed!
 ![Creditcardnumbers](images/Challenge2_creditcardnumbers.png)
 
 #### Challenge #3
@@ -208,4 +214,4 @@ Two clues:
 
 ---
 
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
+--- ## :tada: MIssion Accomplished :tada:
