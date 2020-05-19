@@ -21,13 +21,15 @@ Use the graphic below to answer the following questions:
 
 
 3. Name three threat agents that pose a risk for injection attacks.
-#####
+##### * hardware
+##### * software
+##### * Users
 
 4. What kinds of sources can act as an attack vector for injection attacks?
-#####
+##### Any source can act as an attack vector for injection attacks
 
 5. Injection attacks exploit which part of the CIA triad?
-##### Confidentiality, Integrity and Authenticity
+##### Confidentiality
 
 6. Which two mitigation methods can be used to thwart injection attacks?
 ##### Input sanitation and Input validation methods can be used to thwart injection Attacks
@@ -201,7 +203,7 @@ Next, steal all of the credit card numbers from the database.
 
 After completing the second challenge, you will be provided with an option to continue to the next challenge.
 ##### Using tamper data view the user value of the cookie
-![tamperdats](images/Challenge2_injection.png)
+![tamperdata](images/Challenge2_injection.png)
 ##### Using Cyberchef, encode the username for performing SQL injection and enter it into Tamper data.
 ![Injection](images/Challenge2_injection.png)
 ##### Challenge 2 successful!
@@ -218,6 +220,21 @@ Two clues:
 
 - **Hint 2**: You will need to locate the `webgoat_challenge_guest.jsp` file and inject it with code in order to deface the website.
 
+#### Activate foxyproxy extension with Webscarab option  and turn on Webscarab interface
+![FoxyProxy](images/Challenge3_foxyproxy.png)
+#### Find out the present working directory of the webpage
+![Whoami & PWD](images/Challenge3_interceptwhoami.png)
+![Whoami result](images/Challenge3_whoamiresult)
+#### Find the directory of the `webgoat_challenge_guest.jsp`
+![Find Directory](images/Challenge3_interceptFindDirectory.png)
+![Directory Path result](images/Challenge3_directorypathresult.png)
+#### Perform Command line injection to `webgoat_challenge_guest.jsp` to deface the website
+![Command Injection](images/Challenge3_commandlineinjection.png)
+![Defaced Web page](images/Challenge3_defacedwebpage1)
+![Defaced Web Page](images/Challenge3_defacedwebpage2)
+#### Challenge Completed!! :tada:
+![Challenge complete](images/Final_Result.png)
+
 ---
 
---- ## :tada: MIssion Accomplished :tada:
+--- ## :zap: End of Document :zap:
