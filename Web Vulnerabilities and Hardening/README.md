@@ -222,16 +222,20 @@ Two clues:
 
 #### Activate foxyproxy extension with Webscarab option  and turn on Webscarab interface
 ![FoxyProxy](images/Challenge3_foxyproxy.png)
+
 #### Find out the present working directory of the webpage
 ![Whoami & PWD](images/Challenge3_interceptwhoami.png)
-![Whoami result](images/Challenge3_whoamiresult)
+![Whoami result](images/Challenge3_whoamiresult.png)
+
 #### Find the directory of the `webgoat_challenge_guest.jsp`
 ![Find Directory](images/Challenge3_interceptFindDirectory.png)
 ![Directory Path result](images/Challenge3_directorypathresult.png)
+
 #### Perform Command line injection to `webgoat_challenge_guest.jsp` to deface the website
 ![Command Injection](images/Challenge3_commandlineinjection.png)
-![Defaced Web page](images/Challenge3_defacedwebpage1)
-![Defaced Web Page](images/Challenge3_defacedwebpage2)
+![Defaced Web page](images/Challenge3_defacedwebpage1.png)
+![Defaced Web Page](images/Challenge3_defacedwebpage2.png)
+
 #### Challenge Completed!! :tada:
 ![Challenge complete](images/Final_Result.png)
 
