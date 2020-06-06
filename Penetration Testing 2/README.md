@@ -4,7 +4,7 @@ In this activity, you will play the role of an independent penetration tester hi
 
 - The CEO claims to have passwords that are long and complex and therefore unhackable.
 
-- You are tasked with gaining access to the CEO's computer and using a Meterpreter session to search for two files that contain the strings `recipe` and `seceretfile`.
+- You are tasked with gaining access to the CEO's computer and using a Meterpreter session to search for two files that contain the strings `recipe` and `secretfile`.
 
 - The deliverable for this engagement will be in the form of a report labeled `Report.docx`.
 
@@ -61,7 +61,7 @@ You've been provided full access to the network and are getting ping responses f
 
    - Run the SearchSploit commands to show available Icecast exploits.
 
-     > Answer:searchsploit command in Kali
+     > Answer: searchsploit command in Kali
      ![searchsploit](images/searchsploit.PNG)
      2.
 3. Now that we know which exploits are available to us, let's start Metasploit:
@@ -75,7 +75,7 @@ You've been provided full access to the network and are getting ping responses f
 
    - Run the command to search for the Icecast module:
 
-     > Answer:search icecast
+     > Answer: search icecast
      ![msfconsole-search](images/msfconsole-search.PNG)
 
 
@@ -108,7 +108,7 @@ You've been provided full access to the network and are getting ping responses f
     - Run the command to performs a search for the `recipe.txt` on the target:
 
       > Answer: `search -f *recipe*.txt`
-  ![recipe filepath](images/recipe-filepath.PNG)
+  ![recipe filepath](images/recipe-filepath.png)
 
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
