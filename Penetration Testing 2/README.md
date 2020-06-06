@@ -108,12 +108,12 @@ You've been provided full access to the network and are getting ping responses f
     - Run the command to performs a search for the `recipe.txt` on the target:
 
       > Answer: `search -f *recipe*.txt`
-  ![recipe filepath](images/recipe-filepath.png)
+  ![recipe filepath](images/recipe-filepath.PNG)
 
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
       > Answer: download
-   ![download](images/download.PNG)
+   ![download](images/download.png)
 
 ![downloaded file on kali](images/kali-ls.PNG)
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
