@@ -115,7 +115,7 @@ You've been provided full access to the network and are getting ping responses f
       > Answer: download
    ![download](images/download.png)
 
-![kali](images/kali-ls.PNG)
+![kali](images/kali-ls.png)
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
 
