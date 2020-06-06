@@ -26,25 +26,12 @@ In this activity, you will play the role of an independent penetration tester hi
 
 - Since you've already been provided access to the network, OSINT won't be necessary.
 
-#### Lab Environment
-
-For this week's homework, please use the following VM setup:
-
-- Attacking machine: Kali Linux `root:toor`
-- Target machine: DVW10 `IEUser:Passw0rd!`
-
-**NOTE**: You will need to login to the **DVW10** VM and start the `icecast` service prior to beginning this activity using the following procedure:
-
-- After logging into DVW10, type "icecast" in the Cortana search box and hit **Enter**.
-- The icecast application will launch.
-- Click on **Start Server**.
-- You are now ready to being the activity.
 
 #### Deliverable
 
-Once you complete this assignment, submit your findings in the following document:
+My findings are documented in the following Report:
 
-- [Report.docx](Resources/Report.docx)
+- [Report.docx](Report/Report.docx)
 
 ### Instructions
 
@@ -114,8 +101,7 @@ You've been provided full access to the network and are getting ping responses f
 
       > Answer: download
    ![download](images/download.png)
-
-![kali](images/kali-ls.png)
+   ![kali](images/kali-ls.PNG)
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
 
