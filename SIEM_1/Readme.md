@@ -108,7 +108,7 @@ Submit a screen shot of your report and the answer to the questions above.
 
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 > Answer:
-![Step3Alert](images/Step3_alertrt.PNG)
+![Step3Alert](images/Step3_alert.PNG)
 
 
 ### Step 4: Drawing the (base)line
