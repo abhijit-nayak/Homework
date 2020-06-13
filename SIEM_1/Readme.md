@@ -51,9 +51,8 @@ Let's get started!
 2. After a successful install, select the new fping app from your list of available apps.
 
 3. Configure the fping app to monitor the 2 web servers: `198.153.194.1` and `198.153.194.2`.
-
+![fpingconfig](images/fping_config.PNG)
 4. Let the monitoring run for about 10 minutes to collect some statistics. Provide a screenshot of the fping screen that displays the state of your web servers.
-
 
 
 ### Step 2: The Need for Speed
