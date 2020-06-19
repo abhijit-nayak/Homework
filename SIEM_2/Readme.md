@@ -18,32 +18,33 @@ Note: This is a public-facing windows server that VSI employees access.
 - Several users were impacted during the attack on March 25th.
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
   >Answer: Based on the attack signatures; user_k, user_j and user_a accounts were impacted.
+
   >user_k:
-  attack signature: An attempt was made to reset an accounts password.
+  >attack signature: An attempt was made to reset an accounts password.
 
   ![user_k](images/user_k.png)
 
   >The recommended mitigation would be
-  at global level: whitelisting the ip of user_k
-  at user level: change the loginid &  password.
+  >at global level: whitelisting the ip of user_k
+  >at user level: change the loginid &  password.
 
   >user_j:
-  signature: an account was successfully logged on
+  >signature: an account was successfully logged on
 
   ![user_j](images/user_j.png)
 
   >The recommended mitigation would be
-  at global level: Generate an alert for attempts made more than 5 times in span of 10 minutes
-  at user level: change the loginid & password.
+  >at global level: Generate an alert for attempts made more than 5 times in span of 10 minutes
+  >at user level: change the loginid & password.
 
   >user_a:
-  signature: An account was locked out
+  >signature: An account was locked out
 
   ![user_a](images/user_a.png)
 
   >The recommended mitigation would be
-  at global level: Generate an alert for login retries more than 3 times.
-  at user level: change the loginid & password.
+  >at global level: Generate an alert for login retries more than 3 times.
+  >at user level: change the loginid & password.
 
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
